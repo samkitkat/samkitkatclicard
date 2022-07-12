@@ -1,0 +1,19 @@
+{
+  "name": "samkitkat",
+  "version": "1.0.7",
+  "description": "fancy business card that outputs to the terminal using npx following the tutorial by whitep4nth3r.",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "author": "samkitkat",
+  "license": "ISC",
+  "bin": {
+    "samkitkat": "./index.mjs"
+  },
+  "dependencies": {
+    "boxen": "^7.0.0",
+    "chalk": "^5.0.1",
+    "metalandcoffee": "^1.2.0"
+  }
+}
